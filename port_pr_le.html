@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="port_pr_de_style.css">
+    <link rel="icon" type="image/x-icon" href="images/icons/fav5_yel_fill.svg">
+    <title>Lithos & Estia Wine</title>
+</head>
+<body>
+    <div class="structure">
+        <nav id="nav_sec">
+            <a class="nav_logo" href="port_index.html"><img style="width: 22%;" img src="images/icons/logo5_yel_fill.svg"></a>
+            <div class="nav_link">
+                <button class="nav_btn"><a href="port_about.html"><div class="nav_a_btn">about</div></a></button>
+                <button class="nav_btn"><a href="port_portfolio.html"><div class="nav_a_btn">portfolio</div></a></button>
+                <button class="nav_btn"><a href="port_gallery.html"><div class="nav_a_btn">gallery</div></a></button>
+            </div>
+            <div class="nav_link_2">
+                <a href="https://www.youtube.com/channel/UC8W5aznsE1nlu1xeVQgaALA" target="_blank"><img class="nav_link_2_scls" src="images/icons/yout_yel_hol.svg"></a>
+                <a href="https://www.behance.net/yololmao1" target="_blank"><img class="nav_link_2_scls" src="images/icons/be_yel_hol.svg"></a>
+                <a href="https://www.linkedin.com/in/pantelis-nikoloutsopoulos-858abb294/" target="_blank"><img class="nav_link_2_scls" src="images/icons/lin_yel_hol.svg"></a>
+            </div>
+        </nav>
+        </section>
+        <about>
+        <main id="main_sec_le">
+        <!-- About -->
+            <div class="abt_text">
+                <h1 class="abt_text_h1">Lithos & Estia Wine</h1>
+                <h2 class="abt_text_h2">about</h2>
+                <p class="abt_text_p">The objective of this project was to design a matching set of two wine bottle labels: one for a white wine named "Λίθος" 
+                and one for a red wine named "Εστία." I drew inspiration from various wine bottle labels and abstract art. 
+                My aim was to depict in my illustrations the imagery that comes to mind when I encounter the words "Λίθος" 
+                and "Εστία," while also adhering to a modern, minimalist design approach.
+                <br>
+                Year - 2022
+                </p>
+        <!-- Gallery -->
+            <div class="gall_btn" onclick="openModal();currentSlide(1)">view gallery</div>
+            <div id="myModal_port_gall" class="modal_gall">
+                <span class="modal_gall_close cursor" onclick="closeModal()">&times;</span>
+                <div class="modal_gall_content">
+                <div class="mySlides">
+                    <div class="numbertext">1 / 3</div>
+                    <img class="slide_img_dim" src="images/projects/Wine Thumb 72.jpg">
+                </div>
+                <div class="mySlides">
+                    <div class="numbertext">2 / 3</div>
+                    <img class="slide_img_dim" src="images/projects/white_wine thumb 72.jpg">
+                </div>
+                <div class="mySlides">
+                    <div class="numbertext">3 / 3</div>
+                    <img class="slide_img_dim" src="images/projects/red_wine thumb 72.jpg">
+                </div>
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                <div class="modal_gall_bottom_slide">
+                    <img class="demo cursor" src="images/projects/Wine Thumb 72.jpg" style="width: 100%;" onclick="currentSlide(1)">
+                    <img class="demo cursor" src="images/projects/white_wine thumb 72.jpg" style="width: 100%;" onclick="currentSlide(2)">
+                    <img class="demo cursor" src="images/projects/red_wine thumb 72.jpg" style="width: 100%;" onclick="currentSlide(3)">
+                </div> 
+            </div> 
+            </div>
+            <a href="port_pr_tz.html" style="text-decoration: none;"><div class="gall_btn">next project</div></a>
+            <a href="port_pr_mk.html" style="text-decoration: none;"><div class="gall_btn">previous project</div></a>
+            </div>
+        </about>
+        </main>
+        <footer class="foot_sec">
+            <a href="port_index.html">
+                <div class="foot_sec_logo_cnt">
+                    <img class="foot_sec_logo_img" src="images/icons/logo5_gra_fill.svg">
+                </div>
+            </a>
+            <h2 class="foot_sec_h2">Pantelis Nikoloutsopoulos 2023®</h2>
+        </footer>
+    </div>
+    <!-- js -->
+    <script src="port.js"></script>  
+</body>
+</html>
