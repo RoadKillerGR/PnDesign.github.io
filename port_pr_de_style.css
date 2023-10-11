@@ -402,7 +402,7 @@ html {
 
 .gall_btn {
     display: flex;
-    align-content: center;
+    align-items: center;
     justify-content: flex-start;
     text-decoration: none;
     background-color: #323232;
