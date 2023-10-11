@@ -203,7 +203,7 @@ html {
     border-radius: 100px 100px 100px 100px;
     background-color: #ffe06a;
     opacity: 0;
-    width: 40%;
+    width: 34%;
     height: 0.6vh;
     animation: scale_0_to_1 1s ease;
     animation-iteration-count: 1;
