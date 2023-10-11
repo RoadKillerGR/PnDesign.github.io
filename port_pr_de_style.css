@@ -14,12 +14,12 @@ html {
 
 @font-face {
     font-family: 'noto_serif';
-    src: url(/fonts/NotoSerif/NotoSerif-Bold.ttf) format(truetype);
+    src: url(../../fonts/NotoSerif/NotoSerif-Bold.ttf) format(truetype);
 }
 
 @font-face {
     font-family: 'sofia_sans';
-    src: url(/fonts/SofiaSans/SofiaSansCondensed-Bold.ttf) format(truetype);
+    src: url(../../fonts/SofiaSans/SofiaSansCondensed-Bold.ttf) format(truetype);
 }
 
 .structure {
