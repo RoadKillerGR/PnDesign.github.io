@@ -13,13 +13,13 @@ html {
 }
 
 @font-face {
-    font-family: 'noto_serif';
-    src: url(../Portfolio_github/fonts/NotoSerif/NotoSerif-Bold.ttf) format(truetype);
+    font-family: noto_serif;
+    src: url(fonts/NotoSerif/NotoSerif-Bold.ttf) format(truetype);
 }
 
 @font-face {
-    font-family: 'sofia_sans';
-    src: url(../Portfolio_github/fonts/SofiaSans/SofiaSansCondensed-Bold.ttf) format(truetype);
+    font-family: sofia_sans;
+    src: url(fonts/SofiaSans/SofiaSansCondensed-Bold.ttf) format(truetype);
 }
 
 .structure {
