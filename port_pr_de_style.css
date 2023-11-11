@@ -58,6 +58,10 @@ html {
     transition: .3s ease;
 }
 
+.nav_logo_dim {
+    width: 1.9vw;
+}
+
 .nav_logo:hover {
     transform: scale(1.2);
     transition: .3s ease;  
